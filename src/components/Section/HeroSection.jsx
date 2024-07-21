@@ -66,7 +66,7 @@ function HeroSection() {
             </form>
           </div>
         </div>
-        <div className="w-1/2 animate-slideInFromTop">
+        <div className="w-1/2 max-sm:animate-slideInFromLeft  md:animate-slideInFromTop">
           <span className="flex gap-5 py-10 max-sm:w-screen max-sm:overflow-x-hidden h-[80%] md:mt-72 -rotate-12">
             <div>
               <Image width={290} height={672} src="/assets/Dashboar.png" alt="app" />

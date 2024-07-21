@@ -3,25 +3,28 @@
 @tailwind utilities;
 
 #head{
-    /* Projects we are proud of */
-
 width: 600px;
 height: 52px;
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 144%;
-/* identical to box height, or 52px */
 letter-spacing: 0.326451px;
-
 color: #101828;
-
-
-/* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
 }
+
+.card {
+    position: relative;
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+
+  

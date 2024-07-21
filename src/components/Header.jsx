@@ -62,19 +62,19 @@ function Header() {
       {/* Mobile Menu */}
       <div className={`md:hidden fixed top-24 left-0 w-full bg-white border-t border-gray-100 shadow-lg rounded-md ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className='flex flex-col items-center gap-4 p-4'>
-          <Link href="/services">
+          <Link href="/">
             <p className='font-protest text-[#101828] hover:bg-gray-200 rounded-md p-2 font-semibold text-[14px]'>Services</p>
           </Link>
-          <Link href="/media">
+          <Link href="/">
             <p className='font-protest text-[#101828] hover:bg-gray-200 rounded-md p-2 font-semibold text-[14px]'>Media</p>
           </Link>
-          <Link href="/cases">
+          <Link href="/">
             <p className='font-protest text-[#101828] hover:bg-gray-200 rounded-md p-2 font-semibold text-[14px]'>Cases</p>
           </Link>
-          <Link href="/faq">
+          <Link href="/">
             <p className='font-protest text-[#101828] hover:bg-gray-200 rounded-md p-2 font-semibold text-[14px]'>FAQ</p>
           </Link>
-          <Link href="/contacts">
+          <Link href="/">
             <p className='font-protest text-[#101828] hover:bg-gray-200 rounded-md p-2 font-semibold text-[14px]'>Contacts</p>
           </Link>
           <span className="flex items-center gap-2">
