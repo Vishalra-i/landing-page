@@ -1,3 +1,5 @@
+import { faGreaterThan } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import React from 'react'
 
@@ -34,13 +36,13 @@ function DevelopmentCycle() {
         {/* Right Side - Different feild  */}
           <div className=" mx-auto w-full md:w-1/2 px-10">
              <ul className='text-gray-700 space-y-2'>
-                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>iOS development &#10095;</li>
-                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>Android development &#10095;</li>
-                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>Web development &#10095;</li>
-                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>UI/UX design &#10095;</li>
-                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>Testing &#10095;</li>
-                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>Launch &#10095;</li>
-                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>IT consulting &#10095;</li>
+                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>iOS development <FontAwesomeIcon icon={faGreaterThan} /></li>
+                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>Android development <FontAwesomeIcon icon={faGreaterThan} /></li>
+                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>Web development <FontAwesomeIcon icon={faGreaterThan} /></li>
+                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>UI/UX design <FontAwesomeIcon icon={faGreaterThan} /></li>
+                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>Testing <FontAwesomeIcon icon={faGreaterThan} /></li>
+                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>Launch <FontAwesomeIcon icon={faGreaterThan} /></li>
+                <li className='hover:underline hover:text-black p-1 text-lg font-medium underline-offset-8 cursor-pointer decoration-gray-500 hover:font-bold'>IT consulting <FontAwesomeIcon icon={faGreaterThan} /></li>
              </ul>
           </div>
        </div>
