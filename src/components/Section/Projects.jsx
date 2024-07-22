@@ -60,7 +60,7 @@ function Projects() {
   );
 
   return (
-    <section className='py-16 px-8 w-full bg-[#F2F4F7]'>
+    <section id="media" className='py-16 px-8 w-full bg-[#F2F4F7]'>
       <h2 className='text-4xl font-bold'>Developed more than <span className='text-green-400'>100</span> <br /> projects in <span className='text-green-400'>15</span> industries</h2>
       
       {/* Different fields of projects */}
@@ -84,7 +84,7 @@ function Projects() {
       
       {/* Proud projects */}
       <div className="my-16 ">
-        <h3 id='head' >Projects we are proud of</h3>
+        <h3 className="text-[#101828] text-4xl font-bold" >Projects we are proud of</h3>
         <p className='my-5 text-[15px] font-[500]'>
           Our software development company is truly proud of the wonderful clients we have <br /> 
           worked with. We enjoy a long-term partnership

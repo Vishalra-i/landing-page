@@ -2,20 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-#head{
-width: 600px;
-height: 52px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 144%;
-letter-spacing: 0.326451px;
-color: #101828;
-flex: none;
-order: 0;
-flex-grow: 0;
-}
+
 
 .card {
     position: relative;

@@ -17,7 +17,7 @@ function AppDev() {
         { number: 6, title: 'Support', description: 'We develop robust and scalable applications using the latest technologies.', icon: faCode },
       ];
   return (
-    <section className='py-16 px-5 bg-white'>
+    <section id="cases" className='py-16 px-5 bg-white'>
         <h1 className='text-4xl font-bold'>Application Development Stages</h1>
         <div className="flex flex-col md:flex-row h-full w-full my-10 ">
            <div className="space-y-5 h-full py-16 w-full md:w-1/3">

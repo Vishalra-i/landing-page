@@ -19,7 +19,7 @@ function Contact() {
     console.log(`Phone Number: ${selectedCode} ${phoneNumber}`);
   };
   return (
-    <section className='w-full px-10 py-16 bg-gradient-to-l to-yellow-400  via-orange-300 from-green-600 text-white'>
+    <section id="contacts" className='w-full px-10 py-16 bg-gradient-to-l to-yellow-400  via-orange-300 from-green-600 text-white'>
         <div className="flex flex-col md:flex-row gap-10 md:gap-2 items-center  w-full">
           <div className="flex flex-col gap-2 w-full md:w-1/2 px-10 justify-center">
                 <h3 className="text-4xl font-bold">Let's discuss <br /> Your project</h3>

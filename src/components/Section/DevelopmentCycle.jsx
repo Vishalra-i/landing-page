@@ -8,7 +8,7 @@ function DevelopmentCycle() {
     <section className='bg-white w-full min-h-fit p-5'>
         {/* Logobar for advertisment  */}
        <hr className='bg-gray-300 h-[2px] w-full'/>
-          <div className="flex items-center justify-evenly animate-slide ">
+          <div className="flex items-center justify-evenly animate-slide overflow-hidden">
             <Image src={'/assets/logobar.png'} alt="logobar" width={140} height={30}/>
             <Image src={'/assets/logobar.png'} alt="logobar" width={140} height={30}/>
             <Image src={'/assets/logobar.png'} alt="logobar" width={140} height={30}/>

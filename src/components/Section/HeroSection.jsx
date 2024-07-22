@@ -21,7 +21,7 @@ function HeroSection() {
   };
 
   return (
-    <section>
+    <section id="services">
       <div className="flex flex-col md:flex-row gap-0 md:gap-10 items-center max-h-fit md:overflow-hidden md:max-h-screen px-5 bg-[#F2F4F7]">
         <div className="w-full md:w-1/2 px-5 animate-slideInFromLeft leading-7 mt-32 md:mt-16">
           <h1 className="text-4xl text-yellow-400 font-bold">User-Centric Excellence<span className="text-black">: Our</span></h1>
@@ -66,8 +66,8 @@ function HeroSection() {
             </form>
           </div>
         </div>
-        <div className="w-1/2 max-sm:animate-slideInFromLeft  md:animate-slideInFromTop">
-          <span className="flex gap-5 py-10 max-sm:w-screen max-sm:overflow-x-hidden h-[80%] md:mt-72 -rotate-12">
+        <div className="w-full md:w-1/2 max-sm:animate-slideInFromLeft  overflow-hidden md:overflow-visible  md:animate-slideInFromTop ">
+          <span className="flex gap-5 py-10 max-sm:w-screen h-[80%] md:mt-72 -rotate-12">
             <div>
               <Image width={290} height={672} src="/assets/Dashboar.png" alt="app" />
               <Image width={290} height={672} src="/assets/raise.png" alt="app" />
