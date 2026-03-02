@@ -2,16 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  background: #fff7f8;
+}
 
-.card {
-    position: relative;
-    background-color: white;
-    padding: 16px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply rounded-full bg-gradient-to-r from-rose-300 via-rose-400 to-amber-300 px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:scale-105;
   }
-  
-  
 
-  
+  .btn-secondary {
+    @apply rounded-full border border-white/70 bg-white/15 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/25;
+  }
+
+  .section-kicker {
+    @apply text-xs font-semibold uppercase tracking-[0.35em] text-rose-400;
+  }
+
+  .section-title {
+    @apply mt-3 max-w-3xl text-3xl font-semibold leading-tight text-stone-800 md:text-5xl;
+  }
+
+  .service-card {
+    @apply rounded-2xl border border-rose-100 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+}
+
+[data-animate] {
+  opacity: 0;
+  transform: translateY(28px) scale(0.98);
+  transition: opacity 700ms ease, transform 700ms ease;
+}
+
+[data-animate].animate-in {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
